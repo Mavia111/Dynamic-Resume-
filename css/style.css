@@ -1,0 +1,189 @@
+/*Resume Style*/
+/* base style */
+div.container{
+    padding: 5%;
+}
+div.box {
+    padding: 2%;
+    box-shadow: 2px -2px 20px 4px #f1f1f1;
+    background-color: #00000005;
+}
+
+
+/*End*/
+/*basic classes*/
+.text_large {
+    font-size: 50px;
+}
+.text_medium{
+    font-size: 30px;
+}
+.text_small {
+    font-size: 18px;
+}
+.text_uppercase {
+    text-transform: uppercase;
+}
+.text_light{
+    color: #939191;
+}
+.text_dark{
+    color: darkgray;
+}
+.font-family{
+    font-family: monospace;
+}
+.p-5{
+    padding: 2%;
+}
+/*End*/
+/*Header sec*/
+header.header {
+    padding-bottom: 2%;
+    border-bottom: 2px solid #5f9ea069;
+}
+.f_left {
+    
+    text-align: left;
+    padding-left: 8%;
+    line-height: 0.5;
+    padding-top: 5%;
+}
+.f_right {
+    text-align: right;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+.f_left h2 {
+    font-family: system-ui;
+    color: cadetblue;
+}
+.f_left h3 {
+    font-family: monospace;
+}
+
+/*End*/
+/*SEC_EDU*/
+.sec_edu{
+    padding-left: 8%;
+    padding-bottom: 2%;
+    border-bottom: 2px solid #5f9ea069;
+}
+.sec_edu div h2{
+    font-family: sans-serif;
+}
+h3.custom_style {
+    line-height: .1;
+    color: #000000;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+/*END*/
+/*SEC_SKILLS*/
+.sec_skills{
+    padding-left: 8%;
+    padding-bottom: 2%;
+    border-bottom: 2px solid #5f9ea069;
+}
+.sec_skills div ul {
+    list-style-type: circle;
+}
+/*END*/
+/*SEC_WORK*/
+.sec_workspace{
+    padding-left: 8%;
+    padding-bottom: 2%;
+    border-bottom: 2px solid #5f9ea069;
+}
+h4.text_spec {
+    line-height: 0.1;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #8d8a8a;
+}
+
+/*END*/
+/*Media Query*/
+
+@media (min-width: 100px) and (max-width: 750px){
+
+/*Header*/
+.text_large {
+    font-size: 40px;
+}
+.f_left{
+    line-height: 1;
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 0px;
+    float: none;
+}
+
+
+/*End*/
+
+/*Sec_Edu*/
+.sec_edu{
+    text-align: center;
+    padding-left:0px;
+}
+h3.custom_style{
+    line-height: .9;
+} 
+/*End*/
+/*Sec_skills*/
+.sec_skills{
+    text-align: center;
+    padding-left:0px;
+}
+.sec_skills div ul {
+    list-style-type: none;
+    margin-left: -15%;
+}
+/*End*/
+/*Sec_work*/
+.sec_workspace{
+    text-align: center;
+    padding-left:0px;
+}
+h3.custom_style{
+    line-height: .9;
+} 
+}
+/*End*/
+/*End*/
+/*End*/
+
+/*First Page Button*/
+first_page_con.button {
+    padding: 5%;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    font-size: 35px;
+    font-family: cursive;
+    background-color: #afafaf14;
+    box-shadow: 0 0 4px 4px black;
+}
+.first_page_con {
+    padding: 15%;
+}
+.first_page_con button a {
+    color: black;
+    text-decoration: none;
+        font-weight: 900;
+}
+/*End*/
+/*Button*/
+input#btn_submit {
+    width: 100%;
+    padding: 1%;
+    margin-top: 5%;
+    color: darkcyan;
+    background-color: #f3f3f3;
+    font-size: 23px;
+    font-family: monospace;
+    font-weight: 900;
+}
+/*End*/

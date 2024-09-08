@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Forms</title>
+</head>
+<body>
+<div class="container">
+	<h2 class="text_large text_uppercase" style="font-family: system-ui;
+    color: cadetblue;">Create Your Resume</h2>
+	<form id="resumeform">
+		<h2 class="text_dark text_medium font-family">Personal Name</h2>		
+		<input placeholder="Full Name" class="p-5 text_light  text_small" type="name" name="name" id="name">
+		<input placeholder="Contact Number" class="p-5 text_light  text_small" type="number" name="phone" id="phone">
+		<input placeholder="Email" class="p-5 text_light  text_small" type="Email" name="email" id="email">
+		<h2 class="text_dark text_medium font-family">Eduction</h2>
+		<input placeholder="Qualification" class="p-5 text_light  text_small" type="name" name="Quali" id="Quali">
+		<input placeholder="Unversity/Collage" class="p-5 text_light  text_small" type="text" name="coll" id="coll">
+		<h2 class="text_dark text_medium font-family">Skills</h2>
+		<input type="text" id="skills" name="skills" class="text_dark text_medium font-family"><br />
+		<button type="button" id="addSkillButton">Add Skill</button>
+		<div id="skillError" class="error"></div>
+		<h2 class="text_dark text_medium font-family">Work Space</h2>
+		<input placeholder="Company Name" class="p-5 text_light  text_small" type="name" name="com" id="com">
+		<input placeholder="Position" class="p-5 text_light  text_small" type="text" name="posi" id="posi">
+		<input class="text_light btn_submit  text_small" type="submit" id="btn_submit"/>
+		
+	</form>
+</div>
+<div id="resumeData"></div>
+<script src="script/show_data.js"></script>
+</body>
+</html>
