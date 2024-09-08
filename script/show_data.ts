@@ -82,7 +82,7 @@ resumeForm.addEventListener('submit', (event) => {
 	</section>
 	<section class="sec_skills">
 		<div>
-			<h2 class="text_dark text_medium" id="skills">Skills <span id="sub_title">Click Me</span></h2>
+			<h2 class="text_dark text_medium" id="skills">Skills</h2>
 			<ul id="Skills_list">
 				<li class="text_light  text_small">${skills.join(', ')}</li>
 				
@@ -99,7 +99,7 @@ resumeForm.addEventListener('submit', (event) => {
 	</div>
 </div>
 
-<script src="script/script.js"></script>
+
 
     `;
 

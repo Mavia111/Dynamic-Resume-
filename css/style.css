@@ -156,7 +156,7 @@ h3.custom_style{
 /*End*/
 
 /*First Page Button*/
-first_page_con.button {
+.first_page_con button {
     padding: 5%;
     width: 80%;
     text-align: center;
